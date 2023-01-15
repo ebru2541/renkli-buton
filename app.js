@@ -7,13 +7,9 @@ buton.addEventListener("click", () => {
   const b = Math.floor(Math.random() * 255);
   const c = Math.floor(Math.random() * 255);
   const renk = `rgb(${a},${b},${c})`;
-
-  const a1 = Math.floor(Math.random() * 255);
-  const b1 = Math.floor(Math.random() * 255);
-  const c1 = Math.floor(Math.random() * 255);
   const renk2 = `rgb(${a},${c},${b})`;
-  const renk3 = `rgb(${c1},${b},${a1})`;
-  const renk4 = `rgb(${c},${b1},${a})`;
+  const renk3 = `rgb(${c},${b},${a})`;
+  const renk4 = `rgb(${c},${a},${b})`;
 
   body.style.backgroundColor = `${renk}`;
   buton.style.backgroundColor = `${renk2}`;
@@ -21,3 +17,4 @@ buton.addEventListener("click", () => {
   h1.style.color = `${renk3}`;
 
 });
+
